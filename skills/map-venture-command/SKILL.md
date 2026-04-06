@@ -1,11 +1,12 @@
 ---
 name: map-venture
-description: "Run an AI Mapping Audit on a single venture or project. Provide the venture name or directory path as an argument. Maps current AI usage across 10 production functions, identifies gaps, and generates targeted recommendations."
+description: "This skill should be used when the user types '/map-venture', asks to 'audit a single project', 'map AI usage for this venture', or wants a focused AI mapping audit on one specific project or business. Provide the venture name or directory path as context."
+version: 1.0.0
 ---
 
 # AI Mapping Audit — Single Venture
 
-You are running a focused AI Mapping Audit on a specific venture. The user will provide the venture name or path as an argument.
+Run a focused AI Mapping Audit on a specific venture. The user will provide the venture name or path.
 
 ## What to tell the user
 

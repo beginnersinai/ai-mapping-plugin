@@ -1,11 +1,12 @@
 ---
 name: map
-description: "Run a full AI Mapping Audit on your workspace. Discovers all ventures/projects, maps current AI usage across 10 production functions, identifies gaps, and generates a prioritized action plan. Based on Kim, Kim & Koning (2026) research showing that discovering WHERE to deploy AI is the key bottleneck — not AI capability itself."
+description: "This skill should be used when the user types '/map', asks to 'run an AI mapping audit', 'scan my workspace for AI gaps', 'find where AI should be in my business', or wants a full workspace AI audit. Runs a comprehensive AI Mapping Audit based on Kim, Kim & Koning (2026) research."
+version: 1.0.0
 ---
 
 # AI Mapping Audit — Full Workspace Scan
 
-You are running a comprehensive AI Mapping Audit based on the research paper "Mapping AI into Production: A Field Experiment on Firm Performance" (Kim, Kim & Koning, 2026).
+Run a comprehensive AI Mapping Audit based on the research paper "Mapping AI into Production: A Field Experiment on Firm Performance" (Kim, Kim & Koning, 2026).
 
 ## Background for the user
 
