@@ -246,6 +246,10 @@ Or via the UI: `/plugin` → **Installed** tab → select **The 44% Rule** → *
 
 ## Version History & Renames
 
+**v1.3.0 (April 6, 2026)** — Complete visual overhaul of the HTML report template. New SVG donut chart for AI saturation breakdown, color-coded stat cards with top accent bars, per-venture progress bars, CSS Grid heat map with hover effects, SVG radar/spider chart (current vs 90th percentile), horizontal bar chart for top 10 opportunities, vertical timeline for 30-day action plan, and icon callout boxes for insights and "Press Send" sections. All 30+ template placeholders verified. Pushed to GitHub as commit `56fb956`.
+
+**v1.2.0 (April 6, 2026)** — Internal improvements to scoring logic and report generation. Added Step 6a-6i calculation details in `map-command/SKILL.md` with exact math for donut dasharray, radar polygon points, bar widths, and timeline bucket grouping.
+
 **v1.1.0 (April 6, 2026)** — Plugin renamed from "AI Mapping Plugin" to "The 44% Rule" to make the value proposition clearer at a glance. The internal package name also changed from `ai-mapping` to `the-44-percent-rule`. Skill commands are now namespaced as `/the-44-percent-rule:map` etc.
 
 If you had **v1.0.0 installed under the old name `ai-mapping`**, Claude Code treats this as a different plugin and will NOT auto-migrate. To upgrade:
@@ -254,6 +258,6 @@ If you had **v1.0.0 installed under the old name `ai-mapping`**, Claude Code tre
 2. Install the new one: `/plugin install the-44-percent-rule@beginnersinai-skills`
 3. Enable auto-update on the marketplace (see "Keeping Up to Date" above) so future updates land automatically
 
-Going forward, the plugin will receive standard version-bump updates (1.1.0 → 1.1.1 → 1.2.0 → etc.) under the new name. As long as you have auto-update enabled, you won't need to think about updates.
+Going forward, the plugin will receive standard version-bump updates (1.3.0 → 1.3.1 → 1.4.0 → etc.) under the new name. As long as you have auto-update enabled, you won't need to think about updates.
 
 **v1.0.0 (April 5, 2026)** — Initial release as "The AI Mapping Plugin" (`ai-mapping`).
