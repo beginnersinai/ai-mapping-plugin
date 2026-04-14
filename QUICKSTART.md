@@ -1,58 +1,53 @@
 # Quick Start — The 44% Rule
 
-**5 minutes. No technical knowledge required.**
+**3 minutes. No technical knowledge required.**
 
-📄 **Prefer a printable visual guide?** [Download the PDF Quick Start](https://beginnersinai.org/wp-content/uploads/2026/04/the-44-percent-rule-quickstart.pdf)
+📄 **Prefer a printable visual PDF?** [Download the Quick Start PDF](https://beginnersinai.org/wp-content/uploads/2026/04/the-44-percent-rule-quickstart.pdf)
 
 ---
 
-## Step 1 — You're already here
+## Step 1 — Download the plugin ZIP
 
-You're on the GitHub page. ✅
+**[👉 Click here to download the plugin directly](https://beginnersinai.org/wp-content/uploads/2026/04/the-44-percent-rule-plugin.zip)**
 
-## Step 2 — Download the ZIP file
+Small file (under 50KB). Saves to your Downloads folder. **Don't unzip it** — Claude Code will handle that.
 
-Click the green **Code** button at the top of the file list, then click **Download ZIP** at the bottom of the dropdown.
-
-![Code button dropdown showing Download ZIP](https://beginnersinai.org/wp-content/uploads/2026/04/github-download-zip.png)
-
-The file saves to your Downloads folder. Don't unzip it — Claude Code will handle that.
-
-## Step 3 — Open Claude Code
+## Step 2 — Open Claude Code
 
 If you don't have Claude Code yet, install it here (free, 2 minutes): **[docs.claude.com/en/docs/claude-code/quickstart](https://docs.claude.com/en/docs/claude-code/quickstart)**
 
 Claude Code is Anthropic's free desktop tool that lets Claude work directly with your files and plugins.
 
-## Step 4 — Install the plugin
+## Step 3 — Install the plugin
 
-Open Claude Code and type this single command:
+Inside Claude Code:
 
-```
-/plugin install the-44-percent-rule@beginnersinai-skills
-```
-
-It installs from our marketplace in a few seconds. Done.
-
-**Prefer to install from the ZIP you downloaded?**
 1. Click the **gear icon** (settings)
 2. Click **Customize**
 3. Click the **+** button
-4. Drag your ZIP into the drop zone
+4. Drag your ZIP file into the drop zone
 
-## Step 5 — Run your first audit
+**Done.** The plugin is installed.
 
-In Claude Code, type:
+> **Prefer a single command?** Type this instead:
+> ```
+> /plugin install the-44-percent-rule@beginnersinai-skills
+> ```
+> Installs from our marketplace in a few seconds, no ZIP needed.
+
+## Step 4 — Run your first audit
+
+Type this command in Claude Code:
 
 ```
 /the-44-percent-rule:map
 ```
 
-Claude will ask you 5 plain-English questions about your business, scan your workspace, and hand you a prioritized list of AI opportunities you're missing.
+Claude will ask 5 plain-English questions about your business, scan your workspace, and hand you a prioritized list of AI opportunities you're missing.
 
 **Takes 2–5 minutes. You don't need any AI knowledge to answer.**
 
-## Step 6 — Score your opportunities
+## Step 5 — Score your opportunities
 
 Once the map is generated, run:
 
@@ -64,17 +59,17 @@ Every opportunity gets ranked by revenue impact, capital reduction, and ease. It
 
 ---
 
-## Turn on Auto-Updates (one-time, 30 seconds)
+## Turn on Auto-Updates (30 seconds, recommended)
 
-Third-party marketplaces don't auto-update by default. Here's how to enable it so you get future fixes and features automatically:
+Third-party marketplaces don't auto-update by default. If you installed via the marketplace command, enable auto-updates so fixes and features arrive automatically:
 
 1. Type `/plugin` and press Enter
 2. Press **Tab** until you reach the **Marketplaces** tab
 3. Select **beginnersinai-skills**
 4. Choose **Enable auto-update**
-5. Press **Esc** to close
+5. Press **Esc**
 
-Done.
+(If you installed from the ZIP, re-download the latest ZIP from above whenever you want to update.)
 
 ---
 
@@ -111,7 +106,7 @@ This plugin is based on a 2026 Harvard/INSEAD study of 515 startups.
 
 - **Email James:** Reply to the email you got when you signed up — he reads every one.
 - **Free community:** [skool.com/beginnersinai](https://www.skool.com/beginnersinai)
-- **Full walkthrough:** [beginnersinai.org/the-44-percent-rule/](https://beginnersinai.org/the-44-percent-rule/)
+- **Full video walkthrough:** [beginnersinai.org/the-44-percent-rule](https://beginnersinai.org/the-44-percent-rule/)
 
 ---
 
