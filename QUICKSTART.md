@@ -40,7 +40,7 @@ Inside Claude Code:
 Type this command in Claude Code:
 
 ```
-/the-44-percent-rule:map
+/map
 ```
 
 Claude will ask 5 plain-English questions about your business, scan your workspace, and hand you a prioritized list of AI opportunities you're missing.
@@ -52,7 +52,7 @@ Claude will ask 5 plain-English questions about your business, scan your workspa
 Once the map is generated, run:
 
 ```
-/the-44-percent-rule:map-score
+/map-score
 ```
 
 Every opportunity gets ranked by revenue impact, capital reduction, and ease. Items flagged **"Press Send"** mean the infrastructure already exists — you just need to activate it. Start there.
@@ -79,10 +79,10 @@ Third-party marketplaces don't auto-update by default. If you installed via the 
 Once per quarter, or after any major business change. The dedup logic prevents re-flagging gaps you've already addressed.
 
 **Want a full audit of just one project?**
-Use `/the-44-percent-rule:map-venture MyProjectName` for a focused 10-function deep-dive on that single project.
+Use `/map-venture MyProjectName` for a focused 10-function deep-dive on that single project.
 
 **Command not found?**
-You forgot the namespace. It's `/the-44-percent-rule:map`, not just `/map`. Plugin commands are always prefixed.
+You forgot the namespace. It's `/map`, not just `/map`. Plugin commands are always prefixed.
 
 **Nothing happens after install?**
 Run `/reload-plugins` in Claude Code to refresh the session.
