@@ -54,7 +54,7 @@ It's automating a finding from [Kim, Kim & Koning (2026)](https://beginnersinai.
 Then run your first audit:
 
 ```bash
-/the-44-percent-rule:map
+/map
 ```
 
 That's it.
@@ -81,9 +81,9 @@ Done. Future fixes and features arrive automatically.
 
 | Command | What it does |
 |---|---|
-| `/the-44-percent-rule:map` | Full audit across all your projects + 10 business functions |
-| `/the-44-percent-rule:map-venture [name]` | Deep-dive on one specific project |
-| `/the-44-percent-rule:map-score` | Ranks all opportunities by revenue × capital × ease |
+| `/map` | Full audit across all your projects + 10 business functions |
+| `/map-venture [name]` | Deep-dive on one specific project |
+| `/map-score` | Ranks all opportunities by revenue × capital × ease |
 
 ## The Three Agents
 
